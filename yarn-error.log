@@ -1,0 +1,100 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Iyanuloluwa Ajidahun\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js test
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Iyanuloluwa Ajidahun\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python38\Scripts;C:\Python38;C:\Program Files\copasi.org\COPASI 4.24.197\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\WINDOWS\System32\OpenSSH;C:\Program Files\PuTTY;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\xampp\php;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\ProgramData\ComposerSetup\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Program Files (x86)\Common Files\Acronis\VirtualFile;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64;C:\Program Files (x86)\Common Files\Acronis\FileProtector;C:\Program Files (x86)\Common Files\Acronis\FileProtector64;C:\Program Files (x86)\Common Files\Acronis\SnapAPI;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Iyanuloluwa Ajidahun\AppData\Roaming\TinyTeX\bin\win32;C:\Users\Iyanuloluwa Ajidahun\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\Iyanuloluwa Ajidahun\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Iyanuloluwa Ajidahun\AppData\Local\atom\bin;C:\Users\Iyanuloluwa Ajidahun\AppData\Roaming\Composer\vendor\bin;C:\Users\Iyanuloluwa Ajidahun\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64;C:\Users\Iyanuloluwa Ajidahun\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\Iyanuloluwa Ajidahun\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Iyanuloluwa Ajidahun\Downloads\Uni Second semseter\Project V5 App BackUp\lastst backup\Painque\package.json: Unexpected token , in JSON at position 2162
+      at JSON.parse (<anonymous>)
+      at C:\Users\Iyanuloluwa Ajidahun\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Iyanuloluwa Ajidahun\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Iyanuloluwa Ajidahun\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@expo-google-fonts/inter": "^0.1.0",
+      "@react-native-community/checkbox": "^0.5.7",
+      "@react-native-community/masked-view": "^0.1.10",
+      "@react-native-community/slider": "^3.0.3",
+      "@react-native-picker/picker": "^1.15.0",
+      "@react-navigation/bottom-tabs": "^5.11.10",
+      "@react-navigation/native": "^5.9.4",
+      "@react-navigation/stack": "^5.14.4",
+      "apisauce": "^2.1.1",
+      "eslint": "^7.25.0",
+      "expo": "~40.0.0",
+      "expo-app-loading": "^1.0.3",
+      "expo-constants": "^10.0.1",
+      "expo-font": "~8.4.0",
+      "expo-image-picker": "~9.2.0",
+      "expo-secure-store": "~9.3.0",
+      "expo-status-bar": "~1.0.3",
+      "form-data": "^4.0.0",
+      "formik": "^2.1.4",
+      "jwt-decode": "^3.1.2",
+      "lottie-react-native": "~2.6.1",
+      "moment": "^2.29.1",
+      "radio-buttons-react-native": "^1.0.4",
+      "react": "^16.14.0",
+      "react-dom": "^16.14.0",
+      "react-is": "^16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+      "react-native-bouncy-checkbox": "^2.0.0",
+      "react-native-datepicker": "^1.7.2",
+      "react-native-daterange-picker": "^1.5.1",
+      "react-native-dialog": "^6.2.0",
+      "react-native-elements": "^3.4.1",
+      "react-native-gesture-handler": "^1.8.0",
+      "react-native-gifted-chat": "^0.16.3",
+      "react-native-paper-dates": "^0.4.5",
+      "react-native-reanimated": "^1.13.3",
+      "react-native-safe-area-context": "^3.1.9",
+      "react-native-screens": "^2.15.2",
+      "react-native-svg": "^12.1.1",
+      "react-native-web": "^0.16.2",
+      "react-native-windows": "^0.64.4",
+      "react-radio-buttons": "^1.2.2",
+      "rn-option-select": "^0.1.0",
+      "styled-components": "^5.3.0",
+      "victory-native": "^35.3.2",
+      "yup": "^0.32.8"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0",
+      "react-native-unimodules": "^0.7.0"
+    },
+    "scripts": {
+      "test": "jest"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
